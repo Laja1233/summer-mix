@@ -1,0 +1,115 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'PT Sans', sans-serif !important;
+    margin: 0;
+    padding: 100px 0;
+    color: #000;
+    font-size:100%;
+    letter-spacing: 1px;
+}
+.content{
+    background: rgba(0, 0, 0, 0) url("../images/summer.jpg") no-repeat fixed center center / cover ;
+    text-align: center;
+}
+a, a:focus, a:hover{
+    text-decoration: none !important;
+    color:#fff !important;
+}
+.placeholder-fix:focus::-webkit-input-placeholder  {color:transparent !important; }
+.placeholder-fix:focus::-moz-placeholder   {color:transparent !important;}
+.placeholder-fix:-moz-placeholder   {color:transparent !important;}
+.loginpage {
+    margin: 10px;
+}
+.loginpage .form-control{
+    width:100%;
+}
+.logo h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+.logo p {
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.loginpage input:first-child{
+    background: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: medium none;
+    height: 60px;
+    margin: 0 0 5px;
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px 5px 0 0;
+}
+.loginpage input:last-child{
+    background: url(../images/lock.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: medium none;
+    height: 70px;
+    margin: 0 0 5px;
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+}
+.form-control::-moz-placeholder {
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-control::-webkit-input-placeholder{
+    color: black !important; 
+    font-weight: 600;
+    letter-spacing: 1px;    
+}
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none!important;
+    outline: 0 none;
+}
+.action-button .btn-block {
+    background-color: rgba(64,48,85,0.9);
+    border: medium none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    height: 60px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+.page-links {
+    padding: 14px;
+    text-align: center;
+    padding: 70px 0;
+}
+.page-links li{
+    display: inline-block;
+}
+.page-links a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 50px;
+} 
